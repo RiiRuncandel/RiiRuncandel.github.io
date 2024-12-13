@@ -36,14 +36,14 @@ function topFunction() {
 
 // Fuction for Sending Message to Whatsapp
 function sendwhatsapp() {
-    var phonenumber = "+6289654278142";
+    var phonenumber = "+6282322473876";
 
     var name = document.querySelector('.name').value;
     var email = document.querySelector('.email').value;
     var number = document.querySelector('.number').value;
     var message = document.querySelector('.message').value;
 
-    var url = "https://wa.me/" + phonenumber + "?text="
+    var url = "https://wa.me/+6282322473876/" + phonenumber + "?text="
     +"*Nama : *" +name+"%0a"
     +"*Email : *" +email+"%0a"
     +"*Nomor : *" +number+"%0a"
