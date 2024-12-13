@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #583fc7;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .member {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+  
+  .member h2 {
+    margin: 10px 0;
+  }
+  
+  .member p {
+    color: #555;
+    font-size: 0.9em;
+  }
+  
