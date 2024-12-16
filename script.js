@@ -1,11 +1,11 @@
-// Function for Sticky Navbar
+// Fungsi untuk Sticky Navbar
 const header = document.querySelector("header");
 const scrollToTopBtn = document.getElementById("myBtn");
 
 window.addEventListener("scroll", function() {
     header.classList.toggle("sticky", window.scrollY > 100);
 
-    // Show/hide the "scroll to top" button based on the scroll position
+// Menampilkan/menyembunyikan tombol "gulir ke atas" berdasarkan posisi gulir
     if (window.scrollY > 100) {
         scrollToTopBtn.classList.add("show");
     } else {
@@ -26,7 +26,7 @@ window.onscroll = () => {
     navlist.classList.remove("open");
 };
 
-// Function to scroll to the top
+// Berfungsi untuk menggulir ke atas
 function topFunction() {
     window.scrollTo({
         top: 0,
@@ -34,7 +34,7 @@ function topFunction() {
     });
 }
 
-// Fuction for Sending Message to Whatsapp
+// Fungsi Mengirim Pesan ke Whatsapp
 function sendwhatsapp() {
     var phonenumber = "+6282322473876";
 
